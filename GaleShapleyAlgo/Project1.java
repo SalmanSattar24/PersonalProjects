@@ -64,7 +64,8 @@ public class Project1 {
     } // End of main
 
     // NOT USED, Method to print a 2D array mainly to see the preference lists
-    private static void printList(int[][] arr) {
+    @SuppressWarnings("unused")
+    private static void printList(int[][] arr) { 
         // Iterate over each row
         for (int i = 0; i < arr.length; i++) {
             // Iterate over each column in the current row
