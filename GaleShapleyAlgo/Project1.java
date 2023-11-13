@@ -1,8 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
  * This code is written by Salman Sattar.
  * For COMP 482, Instructor: Mrs. Lord
@@ -10,6 +5,14 @@ import java.util.Scanner;
  * The algorithm takes in two preference lists, one for the proposers and one for the receivers, and outputs a stable set of pairs.
  * The class contains a main method that reads in an input file, runs the algorithm twice (once with men proposing and once with women proposing), and prints the resulting pairs.
  */
+
+ // Import the necessary packages
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Arrays;
+import java.util.Scanner;
+
+
 public class Project1 {
 
     // Number of proposers and receivers
