@@ -51,8 +51,7 @@ public class Project3 {
             }
 
             // Print the array
-            printArray(array);
-            System.out.println(array[1][1]);
+            // printArray(array);
 
             // Find the length of the longest path
             int result = findLongestPath(array);
@@ -67,6 +66,7 @@ public class Project3 {
         }
     } // End of main
 
+    @SuppressWarnings("unused") 
     private static void printArray(int[][] array) {
         int rows = array.length;
         int cols = array[0].length;
